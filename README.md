@@ -4,7 +4,7 @@
 
 ## Descripción
 
-GIFSeeker es una aplicación construida con React y Vite que permite a los usuarios buscar y visualizar GIFs a través de la API de Giphy. Este proyecto se enfoca en proporcionar una interfaz de usuario rápida y fácil de usar.
+GIFSeeker es una aplicación construida con React y Vite que permite a los usuarios buscar y visualizar GIFs a través de la API de Giphy. 
 
 ## Características
 
