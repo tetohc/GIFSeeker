@@ -1,8 +1,20 @@
-# React + Vite
+# GIFSeeker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GIFSeeker** es una aplicación pequeña y ágil que permite buscar GIFs de forma rápida y sencilla.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GIFSeeker es una aplicación construida con React y Vite que permite a los usuarios buscar y visualizar GIFs a través de la API de Giphy. 
+
+## Características
+
+- **Búsqueda rápida de GIFs**: Permite buscar GIFs de forma rápida y eficiente.
+- **Custom Hooks**: Utiliza custom hooks para manejar la lógica del estado.
+- **Consumo de API**: Utiliza `fetch` para consumir la API de Giphy.
+- **Tecnologías Utilizadas**: React y Vite para una configuración de desarrollo rápida.
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo para frontend.
+- **API de Giphy**: Fuente de los GIFs.
