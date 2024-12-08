@@ -1,0 +1,126 @@
+:root{
+  --white: #ffffff;
+  --border-gray-700: #4b5563;
+  --bg-gray-800: #1f2937;
+  --bg-gray-700: #374151;
+  --bg-gray-500: #6b7280;
+}
+
+* {
+  font-family: system-ui, sans-serif;
+  color-scheme: dark light;
+}
+
+body {
+  padding: 3.75rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem; 
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-gray-700); 
+  background-color: var(--bg-gray-800);
+  color: var(--white); 
+  font-size: 1rem; 
+  transition: border-color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+input[type="text"]:hover {
+  background-color: var(--bg-gray-700); 
+  border-color: var(--bg-gray-500); 
+}
+
+input[type="text"]:focus {
+  border-color: #3b82f6; 
+  outline: none; 
+  transform: scale(1.02); /* Slightly enlarge on focus */
+}
+
+h1 {
+  margin-bottom: 1rem; 
+  font-size: 3rem; 
+  line-height: 1; 
+  letter-spacing: -0.025em; 
+  font-weight: 800; 
+  color: var(--white);
+}
+
+h2 {
+  margin-top: 0.5rem; 
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem; 
+  line-height: 2rem; 
+  font-weight: 700; 
+  letter-spacing: -0.025em; 
+  color: var(--white); 
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.grid-image {
+  display: grid;
+  gap: 2rem; 
+}
+
+@media (min-width: 640px) {
+  .grid-image {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-image {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.card-content {
+  border-radius: 0.5rem; 
+  border-width: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: var(--bg-gray-800); 
+  border-color: var(--bg-gray-700);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-content:hover {
+  transform: scale(1.05);
+  background-color: var(--bg-gray-700); 
+  border-color: var(--bg-gray-500);
+}
+
+.container-image {
+  flex: 1 1 calc(33.333% - 1rem); /* Adjust the width of the cards so that they take up one third of the container. */
+  margin: 0.5rem;
+  border-radius: 0.5rem; 
+  overflow: hidden;
+}
+
+.container-image img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+  border-radius: 0.5rem; 
+}
+
+.footer-image {
+  padding: 1rem; 
+  flex-grow: 1;
+}
+
+.custom-container {
+  max-width: 64rem; 
+  padding-left: 1rem; 
+  padding-right: 1rem;
+  margin: auto; 
+}
