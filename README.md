@@ -1,6 +1,6 @@
 # GIFSeeker
 
-**Buscador de Gifs** es una aplicación pequeña y ágil que permite buscar GIFs de forma rápida y sencilla.
+**GIFSeeker** es una aplicación pequeña y ágil que permite buscar GIFs de forma rápida y sencilla.
 
 ## Descripción
 
