@@ -13,12 +13,12 @@ GIFSeeker es una aplicación construida con React y Vite que permite a los usuar
 - **Consumo de API**: Utiliza `fetch` para consumir la API de Giphy.
 - **Tecnologías Utilizadas**: React y Vite para una configuración de desarrollo rápida.
 
-## Demo 
-
-<a href="https://jhurtado-gifseeker.netlify.app" target="_blank">GIFSeeker Demo</a>
-
 ## Tecnologías Utilizadas
 
 - **React**: Biblioteca para construir interfaces de usuario.
 - **Vite**: Herramienta de desarrollo para frontend.
 - **API de Giphy**: Fuente de los GIFs.
+
+## Demo 
+
+[GIFSeeker Demo](https://jhurtado-gifseeker.netlify.app)
